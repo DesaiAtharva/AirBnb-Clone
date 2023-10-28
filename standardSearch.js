@@ -31,7 +31,7 @@ const options = {
 async function getData() {
   try {
     const response = await fetch(url, options);
-    const result = await response.json();
+    const result = await response.text();
     renderData(result.results);
     console.log(result);
     console.log(result.results);
@@ -42,6 +42,7 @@ async function getData() {
     cardsSection.style.fontWeight = '500';
   }
 }
+
 
 getData();
 
