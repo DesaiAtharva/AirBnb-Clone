@@ -132,7 +132,7 @@ input::-webkit-inner-spin-button {
 .hero > div > h3 {
   color: #fff;
 
-  /* text-5xl/Medium */
+
   font-size: 3vw;
   font-weight: 500;
 }
@@ -145,7 +145,6 @@ input::-webkit-inner-spin-button {
   font-size: 1vw;
 }
 
-/*----------------------------------------------------------*/
 
 .inspiration {
   width: 90vw;
@@ -157,7 +156,7 @@ input::-webkit-inner-spin-button {
 .experience > h2 {
   color: var(--black, #000);
 
-  /* text-4xl/Medium */
+
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 1%;
@@ -193,7 +192,7 @@ input::-webkit-inner-spin-button {
 #card4 > div > h3 {
   color: var(--white, #fff);
 
-  /* text-4xl/Medium */
+
   font-size: 36px;
   font-weight: 500;
 }
@@ -211,7 +210,7 @@ input::-webkit-inner-spin-button {
 #card4 > div > h6 {
   color: var(--white, #fff);
 
-  /* text-lg/Regular */
+
   font-size: 18px;
   font-weight: 400;
 }
@@ -232,7 +231,6 @@ input::-webkit-inner-spin-button {
   margin: auto;
 }
 
-/*----------------------------------------------------------=*/
 
 .experience {
   width: 90vw;
@@ -266,9 +264,7 @@ input::-webkit-inner-spin-button {
 }
 #dae-card1 > div,
 #dae-card2 > div {
-  /* position: relative;
-  top: 50px;
-  left: 20px; */
+
   padding: 10%;
 }
 
@@ -276,8 +272,7 @@ input::-webkit-inner-spin-button {
 #dae-card2 > div > h2 {
   color: #fff;
 
-  /* text-5xl/Medium */
-  /* font-size: 48px; */
+
   font-size: 3vw;
   font-weight: 500;
 }
@@ -304,8 +299,6 @@ input::-webkit-inner-spin-button {
   margin: auto;
 }
 
-/*---------------------------------------------------*/
-
 .gift-cards {
   width: 90vw;
   margin: auto;
@@ -320,8 +313,7 @@ input::-webkit-inner-spin-button {
   font-size: 4vw;
   color: var(--black, #000);
 
-  /* text-5xl/Medium */
-  /* font-size: 48px; */
+  
   font-weight: 500;
 }
 
@@ -336,7 +328,7 @@ input::-webkit-inner-spin-button {
   font-size: 1.5vw;
 }
 
-/* --------------------------------------------------------- */
+
 
 .hosting {
   width: 90vw;
@@ -371,7 +363,7 @@ input::-webkit-inner-spin-button {
   font-weight: 500;
   margin-left: 10%;
 }
-/* --------------------------------------------------------- */
+
 
 .footer {
   width: 100vw;
@@ -398,7 +390,7 @@ input::-webkit-inner-spin-button {
 .footer-top > div > ul > li:first-child {
   color: var(--black, #000);
 
-  /* text-base/Medium */
+
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -407,12 +399,12 @@ input::-webkit-inner-spin-button {
 .footer-top > div > ul > li {
   color: var(--gray-00, #999da2);
 
-  /* text-sm/Regular */
+
   font-size: 14px;
   font-weight: 400;
   list-style: none;
   line-height: 26px;
-  /* padding-inline: 20%; */
+
 }
 
 .footer-bottom {
@@ -439,7 +431,7 @@ input::-webkit-inner-spin-button {
   list-style: none;
 }
 .footer-bottom > div:first-child {
-  /* text-sm/Regular */
+
   font-size: 14px;
   font-weight: 400;
 }
@@ -458,7 +450,7 @@ input::-webkit-inner-spin-button {
   color: var(--gray-600, #4b5563);
   font-size: 14px;
   font-weight: 500;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px; 
   text-decoration-line: underline;
 }
 .social-handle {
@@ -479,11 +471,11 @@ input::-webkit-inner-spin-button {
   align-items: center;
   gap: 10px;
 }
-/* --------------------------------------------------------- */
+
 
 @media only screen and (max-width: 767px) {
   .top-bar > ul {
-    /* background-color: red; */
+   
     display: none;
   }
   .search-bar {
